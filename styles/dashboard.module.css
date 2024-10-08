@@ -1,0 +1,128 @@
+.dashboardContent {
+    margin-top: 100px;
+    margin-left: 270px; 
+    padding: 20px;
+}
+
+
+.approvalsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.approvalCard {
+    display: flex;
+    background: white; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: calc(100vw - 320px);
+    align-items: stretch; 
+}
+
+.imageContainer {
+    width: 150px; 
+    position: relative; 
+    border-radius: 8px 0 0 8px; 
+    overflow: hidden; 
+}
+
+.contentContainer {
+    flex: 1; 
+    padding-left: 15px; 
+}
+
+.dogInfo {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.leftSide {
+    flex: 1; 
+}
+
+.dogName {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: black; 
+    margin: 5px 0 0;
+}
+
+.dogBreed {
+    font-size: 1rem; 
+    color: #777777; 
+    margin: 5px 0 0; 
+}
+
+.rightSide {
+    display: flex; 
+    align-items: center; 
+}
+
+.buttonGroup {
+    display: flex; 
+    gap: 10px; 
+}
+
+.approve,
+.decline,
+.viewCertificate {
+    padding: 15px 20px;
+    margin: 2px 0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.approve {
+    background-color: #28a745; 
+    color: white;
+}
+
+.decline {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.dogAttributes {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.vaccinationLabel {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin: 0; 
+}
+
+.vaccinationValue {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black; 
+    margin: 0; 
+}
+
+.eyeIcon {
+    font-size: 1.3rem;
+    vertical-align: middle; 
+    margin-right: 0.5rem; 
+}
+
+.viewCertificate {
+    background: rgba(1, 113, 182, 0.3);
+    color: #0171B6;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
